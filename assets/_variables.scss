@@ -3,5 +3,14 @@ $bg_color:#F3F3F9;
 $text_color:#74788D;
 $bold_text:#495057;
 $btn_color:#3452E1;
+$btn_hover:#1c3ee7;
 
 $font:19px;
+
+@mixin button {
+    width:130px;
+    height:30px;
+    background-color:$btn_color;
+    padding-top:2px;
+    padding-left:14px;
+}
