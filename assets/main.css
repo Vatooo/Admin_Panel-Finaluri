@@ -1,0 +1,366 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #F3F3F9;
+}
+
+.containerr {
+  width: 100%;
+  height: 2000px;
+  border: 3px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left-content {
+  -webkit-box-flex: 21%;
+      -ms-flex: 21%;
+          flex: 21%;
+  background-color: #2A3042;
+}
+
+.right-content {
+  -webkit-box-flex: 79%;
+      -ms-flex: 79%;
+          flex: 79%;
+  background-color: #F3F3F9;
+}
+
+.right-content header {
+  width: 100%;
+  height: 110px;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right-content header .header-left {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.right-content header .header-left .inp {
+  width: 290px;
+  height: 50px;
+  background-color: #F3F3F9;
+  border: 0px solid black;
+  border-radius: 110px;
+  font-size: 19px;
+  color: #74788D;
+}
+
+.right-content header .header-left .inp::-webkit-input-placeholder {
+  color: #74788D;
+  padding-left: 30px;
+  font-size: 19px;
+  background-image: url("https://www.pinclipart.com/picdir/middle/93-937805_bobcat-footprint-clipart-search-icon-svg-white-png.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.right-content header .header-left .inp:-ms-input-placeholder {
+  color: #74788D;
+  padding-left: 30px;
+  font-size: 19px;
+  background-image: url("https://www.pinclipart.com/picdir/middle/93-937805_bobcat-footprint-clipart-search-icon-svg-white-png.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.right-content header .header-left .inp::-ms-input-placeholder {
+  color: #74788D;
+  padding-left: 30px;
+  font-size: 19px;
+  background-image: url("https://www.pinclipart.com/picdir/middle/93-937805_bobcat-footprint-clipart-search-icon-svg-white-png.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.right-content header .header-left .inp::placeholder {
+  color: #74788D;
+  padding-left: 30px;
+  font-size: 19px;
+  background-image: url("https://www.pinclipart.com/picdir/middle/93-937805_bobcat-footprint-clipart-search-icon-svg-white-png.png");
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.right-content header .header-left .inp:focus {
+  outline: none;
+}
+
+.right-content header .header-left .btn {
+  color: #74788D;
+  font-size: 19px;
+}
+
+.right-content header .header-right {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 20px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.right-content header .header-right img {
+  width: 40px;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.right-content header .header-right .btn {
+  font-size: 19px;
+  color: #74788D;
+}
+
+.right-content header .header-right img.set-rotation {
+  margin-right: 21px;
+  -webkit-animation-name: settings;
+          animation-name: settings;
+  -webkit-animation-duration: 2000ms;
+          animation-duration: 2000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes settings {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes settings {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.right-content header .header-right img.not-rotation {
+  -webkit-animation-name: notification;
+          animation-name: notification;
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes notification {
+  0% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  10% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  20% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  30% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  40% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  50% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  60% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  70% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  80% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  90% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+@keyframes notification {
+  0% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  10% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  20% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  30% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  40% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  50% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  60% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  70% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  80% {
+    -webkit-transform: rotate(-25deg);
+            transform: rotate(-25deg);
+  }
+  90% {
+    -webkit-transform: rotate(25deg);
+            transform: rotate(25deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+
+.right-content .header {
+  font-size: 20px;
+  font-weight: bold;
+  color: #495057;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.right-content main {
+  width: 100%;
+  height: 1500px;
+  border: 1px solid purple;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right-content main h3 {
+  color: #495057;
+}
+
+.right-content main .main-left {
+  width: 300px;
+  height: 800px;
+  margin-left: 20px;
+}
+
+.right-content main .main-left .welcome {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.right-content main .main-left .welcome .bg-top {
+  width: 297px;
+  height: 130px;
+  background-color: #D4DAF9;
+  background-size: 100px;
+  padding-left: 20px;
+  padding-top: 10px;
+  background-image: url("https://images.vexels.com/media/users/3/205347/isolated/preview/460e5d1b40a661cefd473b49379838f7-girl-with-notebook-character-by-vexels.png");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: 200px 40px;
+}
+
+.right-content main .main-left .welcome .bg-top h5, .right-content main .main-left .welcome .bg-top p {
+  color: #3452E1;
+}
+
+.right-content main .main-left .welcome img {
+  width: 70px;
+  height: 70px;
+  margin-top: -30px;
+  margin-left: 20px;
+}
+
+.right-content main .main-left .earning {
+  width: 300px;
+  height: 400px;
+  border: 3px solid black;
+  margin-top: 20px;
+}
+
+.right-content main .main-right {
+  width: 100%;
+  height: auto;
+}
+
+.right-content main .main-right .main-right-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 97%;
+  margin-left: 3%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right-content main .main-right .main-right-top .sizee {
+  width: 30%;
+  height: 110px;
+  border: 3px solid black;
+}
+
+.right-content main .main-right .diagram {
+  width: 97%;
+  height: 700px;
+  border: 3px solid green;
+  margin-top: 20px;
+  margin-left: 3%;
+}
+/*# sourceMappingURL=main.css.map */
