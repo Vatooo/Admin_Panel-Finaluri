@@ -45,6 +45,7 @@ body {
         border-radius: 110px;
         font-size: $font;
         color: $text_color;
+        padding-left:20px;
       }
       .inp::placeholder {
         color: $text_color;
@@ -66,17 +67,31 @@ body {
 
     .header-right {
       flex: 50%;
-
       display: flex;
       padding-top: 20px;
       padding-left: 20px;
       justify-content: flex-end;
 
       img {
-        width: 40px;
-        height: 40px;
-        margin-left: 30px;
+        width: 20px;
+        height: 20px;
+        margin-left: 25px;
+        margin-top:14px;
+
+        &.flag {
+          width:30px;
+        }
+        &.f-screen {
+          width:20px;
+          height:20px;
+        }
+        &.profile {
+          width:40px;
+          height:40px;
+          margin-top:4px;
+        }
       }
+      
       .btn {
         font-size: $font;
         color: $text_color;
@@ -199,7 +214,7 @@ body {
             img {
               width: 70px;
               height: 70px;
-              margin-top: -37px;
+              margin-top: -27px;
               margin-left: 20px;
             }
 
@@ -237,7 +252,7 @@ body {
             @include button;
             border-radius:4px;
             margin-left:130px;
-            margin-top:-20px;
+            margin-top:-37px;
 
             a{
                 text-decoration:none;
