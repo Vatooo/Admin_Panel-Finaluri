@@ -171,7 +171,6 @@ body {
   main {
     width: 100%;
     height: 770px;
-    border: 1px solid purple;
     display: flex;
 
     h3 {
@@ -196,10 +195,13 @@ body {
           background-size: 100px;
           padding-left: 20px;
           padding-top: 10px;
+          border-top-left-radius:7px;
+          border-top-right-radius:7px;
           background-image: url("https://images.vexels.com/media/users/3/205347/isolated/preview/460e5d1b40a661cefd473b49379838f7-girl-with-notebook-character-by-vexels.png");
           background-repeat: no-repeat;
           background-size: 100px 100px;
           background-position: 200px 40px;
+          
 
           h5,
           p {
@@ -338,6 +340,7 @@ body {
           background-color:#ffffff;
           position:relative;
           border-radius:7px;
+          margin-right:20px;
 
           .sizee-text {
             padding:20px;
@@ -384,13 +387,244 @@ body {
       }
 
       .diagram {
-        width: 97%;
+        width: 94.7%;
         height: 570px;
         background-color:#444;
         margin-top: 20px;
         margin-left: 3%;
         border-radius:7px;
+        
       }
     }
   }
+
+  .cards{
+    width:100%;
+    height:auto;
+    display:flex;
+    justify-content:space-between;
+    
+
+    .card-1 {
+      width:31%;
+      height:500px;
+      text-align:center;
+      padding-top:30px;
+      margin-left:20px;
+      background-color:#ffffff;
+      position:relative;
+      border-radius:7px;
+
+      .card-1-header {
+        position:absolute;
+        margin-top:0px;
+        left:10%;
+      }
+
+      .header-logo {
+        width:50px;
+        height:50px;
+        margin-top:50px;
+      }
+
+      span {
+        color:$text_color;
+      }
+      a{
+        text-decoration:none;
+        color:$btn_color;
+      }
+      a:hover{
+        text-decoration:none;
+        color:$btn_hover;
+      }
+      
+      * {
+        margin-top:17px;
+      }
+
+      .logos-flex{ 
+        width:100%;
+        height:190px;
+        margin-top:-30px;
+       
+        display:flex;
+        padding-top:50px;
+        justify-content:center;
+        gap:20px;
+      }
+      .logo {
+        width:auto;
+        height:auto;
+        text-align:center;
+
+        img {
+          width:50px;
+          height:50px;
+          margin-top:-30px;
+        }
+        h5 {
+          color:$bold_text;
+        }
+        p {
+          color:$text_color;
+        }
+      }
+      
+
+      
+    }
+    
+    .card-2 {
+      width:31%;
+      height:870px;
+      background-color:#ffffff;
+      border-radius:7px;
+      
+      h5 {
+        margin-top:30px;
+        margin-left:30px;
+      }
+
+      .columns {
+        width:90%;
+        height:700px;
+        margin:auto;
+        border-left:2px dashed rgb(201, 201, 201);
+      }
+
+      .column {
+        display:flex;
+        width:100%;
+  
+        gap:20px;
+        margin-top:50px;
+        
+        p {
+          color:$text_color;
+        }
+
+        img {
+          width:20px;
+          height:20px;
+        }
+
+        .p-bold {
+          font-weight:bold; 
+          font-size:19px;
+          margin-top:-7px;
+
+          span {
+            color:$btn_color;
+            margin-left:10px;
+          }
+        }
+
+        .animation-img {
+          animation-name: image-animation;
+          animation-duration:1.5s;
+          animation-iteration-count: infinite;
+        }
+
+        @keyframes image-animation {
+          0%{
+            opacity:100%;
+          };
+          50%{
+            transform: translateX(30px);
+            opacity:0%;
+          };
+          100%{
+            transform: translateX(0px);
+            opacity:100%;
+          };
+          
+        }
+      }
+
+      .button {
+        @include button;
+        margin:auto;
+        &.button:hover{
+          background-color:$btn_hover;
+          cursor:pointer;
+        }
+
+        a {
+          text-decoration:none;
+          color:white;
+        }
+      }
+      
+    }
+
+    
+    .card-3 {
+      width:31%;
+      height:570px;
+      padding-top:20px;
+      margin-right:20px;
+      text-align:center;
+      background-color:#ffffff;
+      border-radius:7px;
+
+      .card-3-icon {
+        width:100px;
+        height:auto;
+        margin:auto;
+        margin-top:50px;
+
+        img {
+          width:100px;
+          height:100px;
+          margin:auto;
+        }
+      }
+      
+      h5 {
+        margin-top:20px;
+      }
+      
+      .line {
+        width:270px;
+        height:70px;
+        display:flex;
+        margin-left:50px;
+        border-top:1px solid gray;
+        padding-top:10px;
+
+
+        h5 {
+          margin-top:0px;
+          margin-left:20px;
+        }
+
+        .stat-line-1 {
+          width:70px;
+          height:7px;
+          background-color:$btn_color;
+          border-radius:120px;
+          margin-top:8px;
+          margin-left:20px;
+        }
+        .stat-line-2 {
+          width:57px;
+          height:7px;
+          background-color:#34c38f;
+          border-radius:120px;
+          margin-top:8px;
+          margin-left:20px;
+        }
+        .stat-line-3 {
+          width:47px;
+          height:7px;
+          background-color:#f1b44c;
+          border-radius:120px;
+          margin-top:8px;
+          margin-left:20px;
+        }
+      }
+    }
+  }
+
 }
