@@ -297,7 +297,7 @@ body {
 
 .right-content main {
   width: 100%;
-  height: 1500px;
+  height: 770px;
   border: 1px solid purple;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,6 +318,7 @@ body {
   width: 300px;
   height: 290px;
   background-color: #ffffff;
+  border-radius: 7px;
 }
 
 .right-content main .main-left .welcome .bg-top {
@@ -409,6 +410,7 @@ body {
   margin-top: 20px;
   position: relative;
   background-color: #ffffff;
+  border-radius: 7px;
 }
 
 .right-content main .main-left .earning .earning-left {
@@ -480,14 +482,60 @@ body {
 .right-content main .main-right .main-right-top .sizee {
   width: 30%;
   height: 110px;
-  border: 3px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 7px;
+}
+
+.right-content main .main-right .main-right-top .sizee .sizee-text {
+  padding: 20px;
+}
+
+.right-content main .main-right .main-right-top .sizee .sizee-text p {
+  color: #74788D;
+  font-size: 19px;
+}
+
+.right-content main .main-right .main-right-top .sizee .sizee-text h3 {
+  color: #495057;
+}
+
+.right-content main .main-right .main-right-top .sizee .sizee-text .txt-long {
+  width: 100%;
+}
+
+.right-content main .main-right .main-right-top .sizee .sizee-logo {
+  background-color: #3452E1;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 10px;
+  position: absolute;
+  left: 61%;
+  top: 30%;
+}
+
+.right-content main .main-right .main-right-top .sizee .sizee-logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.right-content main .main-right .main-right-top .sizee .sizee-logo.logo-margin {
+  margin-right: 0px;
+  position: absolute;
+  top: 37%;
+  left: 64%;
 }
 
 .right-content main .main-right .diagram {
   width: 97%;
-  height: 700px;
-  border: 3px solid green;
+  height: 570px;
+  background-color: #444;
   margin-top: 20px;
   margin-left: 3%;
+  border-radius: 7px;
 }
 /*# sourceMappingURL=main.css.map */
