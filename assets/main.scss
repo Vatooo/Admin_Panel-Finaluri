@@ -502,6 +502,7 @@ body {
           display:flex;
           gap:37px;
           position:absolute;
+          bottom:90px;
           left:81px;
 
           .graph-1 {
@@ -551,7 +552,7 @@ body {
         //graph 1
         .g-1 {
           position:absolute;
-          top:261px;
+          bottom:0;
           
           .green-1 {
             height:27px;
@@ -568,7 +569,7 @@ body {
         // graph 2
         .g-2 {
           position:absolute;
-          top:187px;
+          bottom:0;
           left:50px;
           
           .green-2 {
@@ -586,7 +587,7 @@ body {
         // graph 3
         .g-3 {
           position:absolute;
-          top:235px;
+          bottom:0;
           left:100px;
           
           .green-3 {
@@ -604,7 +605,7 @@ body {
         // graph 4
         .g-4 {
           position:absolute;
-          top:200px;
+          bottom:0;
           left:150px;
           
           .green-4 {
@@ -622,7 +623,7 @@ body {
         // graph 5
           .g-5 {
           position:absolute;
-          top:290px;
+          bottom:0;
           left:200px;
           
           .green-5 {
@@ -640,7 +641,7 @@ body {
         // graph 6
         .g-6 {
           position:absolute;
-          top:214px;
+          bottom:0;
           left:250px;
           
           .green-6 {
@@ -658,7 +659,7 @@ body {
         //graph 7
         .g-7 {
           position:absolute;
-          top:267px;
+          bottom:0;
           left:300px;
           
           .green-7 {
@@ -676,7 +677,7 @@ body {
         // graph 8
         .g-8 {
           position:absolute;
-          top:191px;
+          bottom:0;
           left:350px;
           
           .green-8 {
@@ -695,7 +696,7 @@ body {
 
         .g-9 {
           position:absolute;
-          top:303px;
+          bottom:0;
           left:400px;
           
           .green-9 {
@@ -713,7 +714,7 @@ body {
         // gtraph 10
         .g-10 {
           position:absolute;
-          top:317px;
+          bottom:0;
           left:450px;
           
           .green-10 {
@@ -731,7 +732,7 @@ body {
         // graph 11
         .g-11 {
           position:absolute;
-          top:224px;
+          bottom:0;
           left:500px;
           
           .green-11 {
@@ -750,7 +751,7 @@ body {
         // graph 12
         .g-12 {
           position:absolute;
-          top:207px;
+          bottom:0;
           left:550px;
           
           .green-12 {

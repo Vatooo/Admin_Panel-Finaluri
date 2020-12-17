@@ -658,6 +658,7 @@ body {
   display: flex;
   gap: 37px;
   position: absolute;
+  bottom: 90px;
   left: 81px;
 }
 
@@ -704,7 +705,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-1 {
   position: absolute;
-  top: 261px;
+  bottom: 0;
 }
 
 .right-content main .main-right .diagram .graphs .g-1 .green-1 {
@@ -721,7 +722,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-2 {
   position: absolute;
-  top: 187px;
+  bottom: 0;
   left: 50px;
 }
 
@@ -739,7 +740,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-3 {
   position: absolute;
-  top: 235px;
+  bottom: 0;
   left: 100px;
 }
 
@@ -757,7 +758,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-4 {
   position: absolute;
-  top: 200px;
+  bottom: 0;
   left: 150px;
 }
 
@@ -775,7 +776,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-5 {
   position: absolute;
-  top: 290px;
+  bottom: 0;
   left: 200px;
 }
 
@@ -793,7 +794,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-6 {
   position: absolute;
-  top: 214px;
+  bottom: 0;
   left: 250px;
 }
 
@@ -811,7 +812,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-7 {
   position: absolute;
-  top: 267px;
+  bottom: 0;
   left: 300px;
 }
 
@@ -829,7 +830,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-8 {
   position: absolute;
-  top: 191px;
+  bottom: 0;
   left: 350px;
 }
 
@@ -847,7 +848,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-9 {
   position: absolute;
-  top: 303px;
+  bottom: 0;
   left: 400px;
 }
 
@@ -865,7 +866,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-10 {
   position: absolute;
-  top: 317px;
+  bottom: 0;
   left: 450px;
 }
 
@@ -883,7 +884,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-11 {
   position: absolute;
-  top: 224px;
+  bottom: 0;
   left: 500px;
 }
 
@@ -901,7 +902,7 @@ body {
 
 .right-content main .main-right .diagram .graphs .g-12 {
   position: absolute;
-  top: 207px;
+  bottom: 0;
   left: 550px;
 }
 
