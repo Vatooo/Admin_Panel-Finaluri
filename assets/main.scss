@@ -1061,82 +1061,83 @@ body {
     height:700px;
     margin:auto;
     margin-top:20px;
-   
     background-color:#ffffff;
-    padding-left:20px;
 
-     h5 {
-       padding-top:30px;
-     }
-
-     .trans-header {
-       @include trans-line;
-       background-color:$bg_color;
-       gap:20px;
-       position:relative;
-       height:50px;
-
-      .inp {
-        @include trans-input;
-       }
-
-      p {
-        font-weight:bold;
-        color:$bold_text;
-      }
+    h5 {
+      padding-left:50px;
+      padding-top:30px;
     }
+   
+    table {
+      width:90%;
+      margin:auto;
+      margin-top:30px;
+      border-spacing:20px;
 
-     .trans-section {
-      @include trans-line;
-      margin-top:10px;
+      input {
+        width:17px;
+        height:17px;
+      }
       
-
-      .inp {
-        @include trans-input;
+      
+      th {
+        background-color:$bg_color;
+        height:70px;
+        padding-left:20px;
       }
 
-      .paid {
-        width:47px;
-        height:27px;
-        background-color:#34c38f2e;
-        color:#34c38f;
-        padding-left:7px;
-        border-radius:20px;
-      }
-
-      .button {
-        @include button;
-        border-radius:20px;
-
-        &:hover {
-          background-color:$btn_hover;
-        }
-
-        a {
-          text-decoration:none;
-          color:white;
-        }
-      }
-
-      .chargeback {
-        width:97px;
-        height:27px;
-        background-color:#f46a6a2e;
-        color:#f46a6a;
-        padding-left:7px;
-        border-radius:20px;
+      tr {
+        height:70px;
+        border-top:1px solid rgb(170, 170, 170);
         
-      }
 
-      .refund {
-        width:57px;
-        height:27px;
-        background-color:#f1b44c2e;
-        color:#f1b44c;
-        padding-left:7px;
-        border-radius:20px;
+        td {
+          background-color:#ffffff;
+          padding-left:20px;
+
+          .paid {
+            width:50px;
+            height:24px;
+            background-color:#34c38f2e;
+            color:#34c38f;
+            text-align:center;
+            border-radius:20px;
+          }
+
+          .chargeback {
+            width:110px;
+            height:24px;
+            background-color:#f46a6a2e;
+            color:#f46a6a;
+            text-align:center;
+            border-radius:20px;
+          }
+          .refund {
+            width:80px;
+            height:24px;
+            background-color:#f1b44c2e;
+            color:#f1b44c;
+            text-align:center;
+            border-radius:20px;
+          }
+
+          .view-details {
+            @include button;
+            border-radius:20px;
+            padding-left:0px;
+            text-align:center;
+            color:white;
+
+            &:hover {
+              cursor:pointer;
+              background-color:$btn_hover;
+            }
+          }
+        }
       }
-     }
+      
+    }
+    
   }
-
 }
+
