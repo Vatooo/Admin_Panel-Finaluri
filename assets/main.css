@@ -1547,6 +1547,12 @@ body {
   .containerr {
     height: 3500px !important;
   }
+  .containerr header .header-left {
+    display: none !important;
+  }
+  .containerr header .header-right {
+    margin-right: 100px !important;
+  }
   .containerr .logooo {
     display: block;
   }
