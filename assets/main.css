@@ -10,8 +10,7 @@ body {
 
 .containerr {
   width: 100%;
-  height: 2900px;
-  border: 3px solid black;
+  height: 2577px;
 }
 
 .containerr .logooo {
@@ -1545,6 +1544,9 @@ body {
 }
 
 @media only screen and (max-width: 701px) {
+  .containerr {
+    height: 3500px !important;
+  }
   .containerr .logooo {
     display: block;
   }
@@ -1553,7 +1555,8 @@ body {
   }
   main {
     display: block !important;
-    height: 3000px !important;
+    width: 710px !important;
+    height: 2000px !important;
   }
   main .welcome {
     width: 650px !important;
@@ -1622,6 +1625,65 @@ body {
   }
   main .main-right .diagram {
     width: 657px !important;
+  }
+  .cards {
+    display: block !important;
+    width: 710px !important;
+  }
+  .cards .card-1 {
+    width: 650px !important;
+  }
+  .cards .card-1 .logos-flex {
+    gap: 170px !important;
+  }
+  .cards .card-1 .logo {
+    gap: 100px !important;
+  }
+  .cards .card-2 {
+    width: 650px !important;
+    height: 800px !important;
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+  }
+  .cards .card-2 .column {
+    width: 650px !important;
+    height: 100px !important;
+    gap: 30px !important;
+  }
+  .cards .card-2 .column p {
+    width: auto !important;
+  }
+  .cards .card-2 .button {
+    margin-top: -150px !important;
+    width: 150px !important;
+    height: 50px !important;
+    padding-top: 10px !important;
+    padding-left: 15px !important;
+    font-size: 19px !important;
+  }
+  .cards .card-3 {
+    margin-top: 50px !important;
+    margin-left: 20px !important;
+    width: 650px !important;
+  }
+  .cards .card-3 .line {
+    width: 570px !important;
+  }
+  .cards .card-3 .line .stat-line-1 {
+    width: 300px !important;
+  }
+  .cards .card-3 .line .stat-line-2 {
+    width: 250px !important;
+  }
+  .cards .card-3 .line .stat-line-3 {
+    width: 200px !important;
+  }
+  .transactions {
+    width: 750px !important;
+    margin: 0 !important;
+    margin-top: 50px !important;
+    margin-left: 20px !important;
+    border: 17px solid white !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
