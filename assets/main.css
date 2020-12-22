@@ -522,14 +522,14 @@ body {
 
 .right-content main .main-left .welcome {
   width: 300px;
-  height: 290px;
+  height: 390px;
   background-color: #ffffff;
   border-radius: 7px;
 }
 
 .right-content main .main-left .welcome .bg-top {
   width: 300px;
-  height: 130px;
+  height: 190px;
   background-color: #d4daf9;
   background-size: 100px;
   padding-left: 20px;
@@ -538,7 +538,7 @@ body {
   border-top-right-radius: 7px;
   background-image: url("https://images.vexels.com/media/users/3/205347/isolated/preview/460e5d1b40a661cefd473b49379838f7-girl-with-notebook-character-by-vexels.png");
   background-repeat: no-repeat;
-  background-size: 100px 100px;
+  background-size: 100px 100px !important;
   background-position: 200px 40px;
 }
 
@@ -1551,8 +1551,77 @@ body {
   .left-content {
     display: none;
   }
-  .diagram {
-    background-color: red !important;
+  main {
+    display: block !important;
+    height: 3000px !important;
+  }
+  main .welcome {
+    width: 650px !important;
+    height: 450px !important;
+  }
+  main .welcome .bg-top {
+    width: 650px !important;
+    background-position: 400px 50px !important;
+    background-size: 100px 100px !important;
+  }
+  main .welcome .bg-top h5, main .welcome .bg-top p {
+    font-size: 30px !important;
+  }
+  main .welcome .welcome-inline .welcome-left img {
+    width: 120px !important;
+    height: 120px !important;
+    margin-top: -50px !important;
+  }
+  main .welcome .welcome-inline .welcome-left h5, main .welcome .welcome-inline .welcome-left p {
+    font-size: 30px !important;
+  }
+  main .welcome .welcome-inline .welcome-right-1 {
+    margin-left: 130px !important;
+  }
+  main .welcome .welcome-inline .welcome-right-1 p, main .welcome .welcome-inline .welcome-right-1 h5 {
+    font-size: 30px !important;
+  }
+  main .welcome .welcome-inline .welcome-right-2 p, main .welcome .welcome-inline .welcome-right-2 h5 {
+    font-size: 30px !important;
+  }
+  main .welcome .button {
+    margin-left: 300px !important;
+    width: 190px !important;
+    height: 50px !important;
+    font-size: 24px !important;
+  }
+  main .earning {
+    width: 650px !important;
+    height: 500px !important;
+  }
+  main .earning .earning-left p, main .earning .earning-left span, main .earning .earning-left .button {
+    margin-top: 40px !important;
+  }
+  main .earning .earning-left .button {
+    width: 190px !important;
+    height: 50px !important;
+    font-size: 24px !important;
+  }
+  main .earning .stat {
+    margin-left: 200px !important;
+  }
+  main .main-right {
+    margin-top: 200px !important;
+  }
+  main .main-right .main-right-top {
+    display: block !important;
+  }
+  main .main-right .main-right-top .sizee {
+    margin-top: 20px !important;
+    width: 650px !important;
+    position: relative !important;
+  }
+  main .main-right .main-right-top .sizee .sizee-logo {
+    position: absolute !important;
+    left: 90% !important;
+  }
+  main .main-right .diagram {
+    width: 657px !important;
   }
 }
 /*# sourceMappingURL=main.css.map */
